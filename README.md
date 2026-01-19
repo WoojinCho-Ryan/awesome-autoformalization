@@ -24,7 +24,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - *Proposes a teacher–student pipeline with Lean feedback to synthesize large NL–FL datasets and trains an ATLAS translator that achieves >90% pass@8 on MiniF2F.*
 - **[2024][PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition]** [[Paper](https://arxiv.org/abs/2407.11214)]
   - *Introduces a Putnam-based formal benchmark and shows that both neural and symbolic provers still struggle on truly hard competition-level problems.*
-- **[2022][Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs]** [[Paper](https://arxiv.org/abs/2210.12283)]  
+- **[2022][Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs]** [[Paper](https://arxiv.org/abs/2210.12283)]
   - *Presents the “Draft–Sketch–Prove” pipeline, where LLM-generated informal proofs are turned into formal sketches that significantly boost downstream prover success rates.*
 
 ---
@@ -35,8 +35,8 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - [Parallel Corpora (NL-FL Pairs)](#parallel-corpora-nl-fl-pairs)
   - [Synthetic Data Generation](#synthetic-data-generation)
 - [Models](#-models)
-  - [Theorem Provers (Solvers)](#solvers)
-  - [Autoformalizers (Translators)](translators)
+  - [Theorem Provers (Solvers)](#-theorem-provers-solvers)
+  - [Autoformalizers (Translators)](#-autoformalizers-translators)
 - [Methodologies](#-methodologies)
   - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
   - [Iterative Refinement & Feedback](#iterative-refinement--feedback)
@@ -74,7 +74,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 *End-to-end systems that aim to generate complete proofs and verify them.*
 
 - **[2025][Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning]** [[Paper](https://arxiv.org/abs/2504.11354)]
-- **[2024][PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition]** [[Paper](https://arxiv.org/abs/2407.11214)]]
+- **[2024][PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition]** [[Paper](https://arxiv.org/abs/2407.11214)]
 
 ### 📝 Autoformalizers (Translators)
 *Models specialized in translating Natural Language (NL) to Formal Logic (FL).*
@@ -89,17 +89,17 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Retrieval-Augmented Generation (RAG)
 *Methods that retrieve relevant theorems or premises from libraries (e.g., Mathlib).*
 
-- (Work In Progress)
+- *(Work In Progress)*
 
 ### Iterative Refinement & Feedback
 *Systems that improve solutions through compiler feedback (Lean/Coq).*
 
-- **[2022][Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs]** [[Paper](https://arxiv.org/abs/2210.12283)]  
+- **[2022][Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs]** [[Paper](https://arxiv.org/abs/2210.12283)]
 
 ### Multi-Agent Systems
 *Collaborative agents specifically for theorem proving.*
 
-- (Work In Progress)
+- *(Work In Progress)*
 
 ---
 
