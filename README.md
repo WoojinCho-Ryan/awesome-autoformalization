@@ -64,7 +64,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Synthetic Data Generation
 *Datasets created or augmented by LLMs.*
 
-- **[2025] ATLAS** [[Paper](https://arxiv.org/abs/2502.05567)]
+- **[2025][ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data]** [[Paper](https://arxiv.org/abs/2502.05567)]
 
 ---
 
@@ -73,14 +73,14 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### 🤖 Theorem Provers (Solvers)
 *End-to-end systems that aim to generate complete proofs and verify them.*
 
-- **[2025] Kimina-Prover** (Project Numina) [[Paper](https://arxiv.org/abs/2504.11354)]
-- **[2024] PutnamBench Provers** [[Paper](https://arxiv.org/abs/2407.11214)]
+- **[2025][Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning]** [[Paper](https://arxiv.org/abs/2504.11354)]
+- **[2024][PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition]** [[Paper](https://arxiv.org/abs/2407.11214)]]
 
 ### 📝 Autoformalizers (Translators)
 *Models specialized in translating Natural Language (NL) to Formal Logic (FL).*
 
-- **[2025] ATLAS Translator** [[Paper](https://arxiv.org/abs/2502.05567)]
-- **[2024] Herald Translator** [[Paper](https://arxiv.org/abs/2410.10878)]
+- **[2025][ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data]** [[Paper](https://arxiv.org/abs/2502.05567)]
+- **[2024][Herald: A Natural Language Annotated Lean 4 Dataset]** [[Paper](https://arxiv.org/abs/2410.10878)]
 
 ---
 
