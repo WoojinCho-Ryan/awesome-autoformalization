@@ -1,9 +1,9 @@
-# 📝 [Paper Title] Review
+# 📝 [MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics] Review
 
-> **Paper**: [Link]
-> **Author**: ...
-> **Tags**: #Autoformalization #RL
-> **Status**: ✅ Read (or 🚧 Reading)
+> **Paper**: [[Link](https://arxiv.org/abs/2109.00110)]
+> **Author**: Kunhao Zheng, Jesse Michael Han, Stanislas Polu
+> **Tags**: #miniF2F #Lean #Formal_Mathematics #Neural_Theorem_Proving #Cross-system_Mathematics
+> **Status**: ✅ Read 
 
 ## 1. ⚡ One-Line Summary
 *Write a single sentence summarizing the core contribution.*
