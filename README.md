@@ -59,7 +59,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 *Aligned pairs of Natural Language (NL) and Formal Logic (FL).*
 
 - **[2024][Herald: A Natural Language Annotated Lean 4 Dataset]** [[Paper](https://arxiv.org/abs/2410.10878)]
-- **[2021][MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics]** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝 My Note](./notes/miniF2F.md)]**
+- **[2021][MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics]** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝My Note](./notes/miniF2F.md)]**
 
 ### Synthetic Data Generation
 *Datasets created or augmented by LLMs.*
