@@ -12,19 +12,19 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ## 🔥 Must-Read & Landmarks
 *If you are new to this field, start here. These are the most influential works.*
 
-- **[2025][Autoformalization in the Era of Large Language Models: A Survey]** [[Paper](https://arxiv.org/abs/2505.23486)]
+- [2025] **Autoformalization in the Era of Large Language Models: A Survey** [[Paper](https://arxiv.org/abs/2505.23486)]
   - *A comprehensive survey of autoformalization with LLMs, covering data, models, evaluation, and the role of formal verification for LLM outputs.*
-- **[2025][Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning]** [[Paper](https://arxiv.org/abs/2504.11354)]
+- [2025] **Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning** [[Paper](https://arxiv.org/abs/2504.11354)]
   - *Introduces the “formal reasoning pattern” and a large RL-trained Lean 4 prover that achieves strong MiniF2F performance with high sample efficiency and clear scaling with model size.*
-- **[2021][MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics]** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
+- [2021] **MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
   - *Defines the standard Olympiad-level formal math benchmark across Metamath, Lean, Isabelle and HOL Light, with GPT-f baselines and an ICLR 2022 release.*
-- **[2024][Herald: A Natural Language Annotated Lean 4 Dataset]** [[Paper](https://arxiv.org/abs/2410.10878)]
+- [2024] **Herald: A Natural Language Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)]
   - *Builds a large-scale NL–Lean4 corpus over mathlib4 and demonstrates a high-accuracy Herald translator for NL→formal code on MiniF2F and related benchmarks.*
-- **[2025][ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data]** [[Paper](https://arxiv.org/abs/2502.05567)]
+- [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
   - *Proposes a teacher–student pipeline with Lean feedback to synthesize large NL–FL datasets and trains an ATLAS translator that achieves >90% pass@8 on MiniF2F.*
-- **[2024][PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition]** [[Paper](https://arxiv.org/abs/2407.11214)]
+- [2024] **PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition** [[Paper](https://arxiv.org/abs/2407.11214)]
   - *Introduces a Putnam-based formal benchmark and shows that both neural and symbolic provers still struggle on truly hard competition-level problems.*
-- **[2022][Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs]** [[Paper](https://arxiv.org/abs/2210.12283)]
+- [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)]
   - *Presents the “Draft–Sketch–Prove” pipeline, where LLM-generated informal proofs are turned into formal sketches that significantly boost downstream prover success rates.*
 
 ---
@@ -49,7 +49,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ## 🗺️ Survey Papers
 *Comprehensive overviews of the field.*
 
-- **[2025][Autoformalization in the Era of Large Language Models: A Survey]** [[Paper](https://arxiv.org/abs/2505.23486)]
+- [2025] **Autoformalization in the Era of Large Language Models: A Survey** [[Paper](https://arxiv.org/abs/2505.23486)]
 
 ---
 
@@ -58,13 +58,13 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Parallel Corpora (NL-FL Pairs)
 *Aligned pairs of Natural Language (NL) and Formal Logic (FL).*
 
-- **[2024][Herald: A Natural Language Annotated Lean 4 Dataset]** [[Paper](https://arxiv.org/abs/2410.10878)]
-- **[2021][MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics]** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
+- [2024] **Herald: A Natural Language Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)]
+- [2021] **MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
 
 ### Synthetic Data Generation
 *Datasets created or augmented by LLMs.*
 
-- **[2025][ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data]** [[Paper](https://arxiv.org/abs/2502.05567)]
+- [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
 
 ---
 
@@ -73,14 +73,14 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### 🤖 Theorem Provers (Solvers)
 *End-to-end systems that aim to generate complete proofs and verify them.*
 
-- **[2025][Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning]** [[Paper](https://arxiv.org/abs/2504.11354)]
-- **[2024][PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition]** [[Paper](https://arxiv.org/abs/2407.11214)]
+- [2025] **Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning** [[Paper](https://arxiv.org/abs/2504.11354)]
+- [2024] **PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition** [[Paper](https://arxiv.org/abs/2407.11214)]
 
 ### 📝 Autoformalizers (Translators)
 *Models specialized in translating Natural Language (NL) to Formal Logic (FL).*
 
-- **[2025][ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data]** [[Paper](https://arxiv.org/abs/2502.05567)]
-- **[2024][Herald: A Natural Language Annotated Lean 4 Dataset]** [[Paper](https://arxiv.org/abs/2410.10878)]
+- [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
+- [2024] **Herald: A Natural Language Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)]
 
 ---
 
@@ -94,7 +94,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Iterative Refinement & Feedback
 *Systems that improve solutions through compiler feedback (Lean/Coq).*
 
-- **[2022][Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs]** [[Paper](https://arxiv.org/abs/2210.12283)]
+- [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)]
 
 ### Multi-Agent Systems
 *Collaborative agents specifically for theorem proving.*
