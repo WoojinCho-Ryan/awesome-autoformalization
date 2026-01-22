@@ -5,8 +5,6 @@
 > **Author**: Kunhao Zheng, Jesse Michael Han, Stanislas Polu
 > 
 > **Tags**: #miniF2F #Lean #Formal_Mathematics #Neural_Theorem_Proving #Cross-system_Mathematics
->
-> **Review Writer**: Woojin Cho (WoojinCho-Ryan)
 > 
 > **Status**: ✅ Read 
 
@@ -27,17 +25,23 @@ Existing benchmarks for automated theorem proving are often polarized—either t
 - **Importance of High-Level Tactics:** The analysis revealed that this performance gap is largely due to Lean's access to high-level tactics (e.g., linarith, ring), which significantly compress the proof length (average 2.5 steps in Lean vs. 20.3 steps in Metamath), making the search space much more manageable for the neural network.
 - **Benefits of Formalization:** The study demonstrated that formal systems effectively serve as objective verifiers, enabling neural networks to leverage search strategies (like best-first search) more effectively compared to informal mathematical reasoning.
 
-## 5. 🧠 My Analysis (Critical Thinking)
+## 5. 🧠 Critical Analysis & Insights
 
-### 🌟 Contribution (Why is this important?)
-*Strengths of this paper.*
-- It successfully demonstrates that...
+### 🌟 Significance (Contribution)
+*Why does this paper matter?*
+- **Pioneering Unified Benchmark:** It establishes a high-quality, standardized testbed for multiple formal systems (Lean, Isabelle, HOL Light, Metamath), enabling direct comparison beyond system-specific evaluations.
+- **Granular Difficulty Stratification:** By categorizing problems from high-school curricula to IMO level, it allows for a systematic diagnosis of a model's reasoning bottlenecks (e.g., simple arithmetic vs. creative insight).
+- **Facilitating Cross-System Evaluation:** The multi-lingual nature of the dataset opens the door for comparing neuro-symbolic approaches across different logical foundations.
 
-### 🚧 Limitations & Future Work
-*What remains unsolved?*
-- While the performance is good, the computational cost is high.
-- It has not yet been tested on harder benchmarks like IMO geometry.
+### 🚧 Current Limitations
+*What are the bottlenecks?*
+- **Data Scarcity & Overfitting Risk:** With only 488 examples in the test set, the dataset is relatively small for data-hungry Transformer models, raising concerns about high evaluation variance and potential overfitting.
+- **Subjectivity & Variance in Difficulty:** The difficulty labels are based on human curricula. Not only can this diverge from computational hardness, but there may also be significant perceived complexity variance even within the same difficulty level.
+- **Validity of Domain Distribution:** The dataset segments math into Algebra, Number Theory, etc., but it remains questionable whether the current ratio of these domains effectively represents general mathematical reasoning capabilities. Further validation on domain balance is needed.
+- **Performance Disparity:** The drastic performance gap between Lean (high) and Metamath (low) implies that current benchmarks may heavily favor systems equipped with high-level tactic libraries rather than measuring pure reasoning ability.
 
-### 🚀 Relevance to My Research
-*How can I apply this?*
-- I can adopt their "data augmentation" technique for my project.
+### 🚀 Research Implications
+*How can the community use this?*
+- **Ground Truth for Autoformalization:** This benchmark serves as an objective metric for Informal-to-Formal translation tasks, verifying not just syntactic correctness but also semantic validity.
+- **Standard for Generalization:** It highlights the necessity of developing system-agnostic models that can reason effectively regardless of the underlying formal language or library dependencies.
+
