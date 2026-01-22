@@ -5,6 +5,8 @@
 > **Author**: Kunhao Zheng, Jesse Michael Han, Stanislas Polu
 > 
 > **Tags**: #miniF2F #Lean #Formal_Mathematics #Neural_Theorem_Proving #Cross-system_Mathematics
+>
+> **Reviewer**: Woojin Cho (WoojinCho-Ryan)
 > 
 > **Status**: ✅ Read 
 
