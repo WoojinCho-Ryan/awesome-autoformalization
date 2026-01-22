@@ -10,6 +10,7 @@
 
 ## 1. ⚡ One-Line Summary
 The paper introduces MiniF2F, a unified benchmark consisting of 488 Olympiad-level mathematics problems formalized in multiple systems (such as Lean and Metamath) to evaluate and advance neural theorem proving models.
+![Number of statements and their provenance in miniF2F](./images/MiniF2F_1.png)
 
 ## 2. ❓ Problem Definition
 Existing benchmarks for automated theorem proving are often polarized—either too simple (synthetic data) or too difficult (research-level undergraduate math)—and lack comparability across different formal systems. The authors aim to bridge this gap by creating a shared benchmark of high-school competition-level problems to better measure progress in deep learning for theorem proving.
