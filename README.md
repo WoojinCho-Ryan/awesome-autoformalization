@@ -140,4 +140,5 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 Contributions are welcome! Please create a pull request.
 
 ### Maintainer
-- [Woojin Cho](https://github.com/WoojinCho-Ryan): (Undergraduate Researcher @ SNU, Computer Science and Engineering)
+- **[Woojin Cho](https://github.com/WoojinCho-Ryan)**: (Undergraduate Researcher @ SNU, Computer Science and Engineering)
+  - e-mail: woojincho.cs@gmail.com
