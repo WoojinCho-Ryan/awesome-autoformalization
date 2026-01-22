@@ -16,7 +16,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - *A comprehensive survey of autoformalization with LLMs, covering data, models, evaluation, and the role of formal verification for LLM outputs.*
 - **[2025][Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning]** [[Paper](https://arxiv.org/abs/2504.11354)]
   - *Introduces the “formal reasoning pattern” and a large RL-trained Lean 4 prover that achieves strong MiniF2F performance with high sample efficiency and clear scaling with model size.*
-- **[2021][MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics]** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝My Note](./notes/miniF2F.md)]**
+- **[2021][MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics]** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/miniF2F.md)]**
   - *Defines the standard Olympiad-level formal math benchmark across Metamath, Lean, Isabelle and HOL Light, with GPT-f baselines and an ICLR 2022 release.*
 - **[2024][Herald: A Natural Language Annotated Lean 4 Dataset]** [[Paper](https://arxiv.org/abs/2410.10878)]
   - *Builds a large-scale NL–Lean4 corpus over mathlib4 and demonstrates a high-accuracy Herald translator for NL→formal code on MiniF2F and related benchmarks.*
@@ -59,7 +59,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 *Aligned pairs of Natural Language (NL) and Formal Logic (FL).*
 
 - **[2024][Herald: A Natural Language Annotated Lean 4 Dataset]** [[Paper](https://arxiv.org/abs/2410.10878)]
-- **[2021][MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics]** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝My Note](./notes/miniF2F.md)]**
+- **[2021][MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics]** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/miniF2F.md)]**
 
 ### Synthetic Data Generation
 *Datasets created or augmented by LLMs.*
