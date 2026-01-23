@@ -147,3 +147,7 @@ Contributions are welcome! Please create a pull request.
 ### Maintainer
 - **[Woojin Cho](https://github.com/WoojinCho-Ryan)**: (Undergraduate Researcher @ SNU, Computer Science and Engineering)
   - e-mail: woojincho.cs@gmail.com
+
+## 🗓 Roadmap
+- [ ] Survey on **LLM-based Agents** for Math (e.g., AlphaGeometry)
+- [ ] Analysis of **Reinforcement Learning** in Theorem Proving
