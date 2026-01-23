@@ -9,6 +9,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 > **Scope:** This repository strictly focuses on translating natural language mathematics into formal logic (e.g., Lean, Isabelle) and solving math problems using formal verification. General LLM reasoning is out of scope.
 >
 > <img width="668" height="466" alt="image" src="https://github.com/user-attachments/assets/823a7d16-2b9e-4505-b2de-ac1e8cc9f6d2" />
+> 
 > Figure by paper 'Autoformalization in the Era of Large Language Models: A Survey'
 
 ---
