@@ -39,7 +39,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 - [Datasets & Benchmarks](#-datasets--benchmarks)
   - [Parallel Corpora (NL-FL Pairs)](#parallel-corpora-nl-fl-pairs)
   - [Synthetic Data Generation](#synthetic-data-generation)
-- [Models](#-models)
+- [Models & Agents](#-models-and-agents)
   - [Theorem Provers (Solvers)](#-theorem-provers-solvers)
   - [Autoformalizers (Translators)](#-autoformalizers-translators)
 - [Methodologies](#-methodologies)
@@ -73,7 +73,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 ---
 
-## 🚀 Models
+## 🚀 Models & Agents
 
 ### 🤖 Theorem Provers (Solvers)
 *End-to-end systems that aim to generate complete proofs and verify them.*
