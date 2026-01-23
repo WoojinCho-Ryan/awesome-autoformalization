@@ -2,6 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-orange)](https://github.com/WoojinCho-Ryan/awesome-autoformalization)
 
 A curated list of papers, datasets, and resources dedicated to **Autoformalization** and **Neural Theorem Proving**.
 
