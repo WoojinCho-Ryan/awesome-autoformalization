@@ -29,7 +29,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - *Proposes a teacher–student pipeline with Lean feedback to synthesize large NL–FL datasets and trains an ATLAS translator that achieves >90% pass@8 on MiniF2F.*
 - [2024] **PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition** [[Paper](https://arxiv.org/abs/2407.11214)]
   - *Introduces a Putnam-based formal benchmark and shows that both neural and symbolic provers still struggle on truly hard competition-level problems.*
-- [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)]
+- [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)] **[[📝Deep Dive](./notes/2022-review-dsp.md)]**
   - *Presents the “Draft–Sketch–Prove” pipeline, where LLM-generated informal proofs are turned into formal sketches that significantly boost downstream prover success rates.*
 
 ---
