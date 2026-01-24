@@ -99,7 +99,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Iterative Refinement & Feedback
 *Systems that improve solutions through compiler feedback (Lean/Coq).*
 
-- [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)]
+- [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)] **[[📝Deep Dive](./notes/2022-review-dsp.md)]**
 
 ### Multi-Agent Systems
 *Collaborative agents specifically for theorem proving.*
