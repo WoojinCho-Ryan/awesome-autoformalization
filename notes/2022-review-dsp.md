@@ -29,4 +29,18 @@ Existing Automated Theorem Proving (ATP) research has struggled due to a scarcit
 
 ## 5. 🧠 Critical Analysis & Insights
 
-[WORKING IN PROCESS!]
+### 🌟 Significance (Contribution)
+*Why does this paper matter?*
+- **Bridging the Informal-Formal Gap:** Instead of a direct translation, it utilizes a multi-stage approach (Draft-Sketch-Prove) to organically connect informal reasoning with formal verification.
+- **Guided Automation:** By translating informal proofs into formal sketches (structured proofs with gaps/comments), it provides high-level logical guidance to the automated prover (Isabelle), significantly reducing the search space.
+
+### 🚧 Current Limitations
+*What are the bottlenecks?*
+- **Dependency on Automation:** The method relies heavily on Isabelle's Sledgehammer. This creates a portability bottleneck for other ecosystems like Lean 4 or Coq, which may not yet possess equivalent "hammer" capabilities to fill the sketched gaps effectively.
+- **Scalability Issues:** For problems exceeding high school competition level (e.g., IMO), the model may struggle to generate hallucination-free informal drafts, leading to failure in the initial step.
+
+### 🚀 Research Implications
+*How can the community use this?*
+- **Verification of Informal Proofs:** It establishes a robust pipeline to verify the mathematical correctness of informal statements via formal compilers.
+- **Future Direction:** As LLMs improve at generating informal proofs, the focus of autoformalization research will likely shift towards improving the efficiency of the translation and verification pipeline.
+- **Preserving Semantics:** To address information loss (e.g., quantifiers) during translation, introducing an additional semantic-preservation layer could be a promising direction for future research.
