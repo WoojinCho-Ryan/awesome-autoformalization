@@ -39,12 +39,15 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 - [Datasets & Benchmarks](#-datasets--benchmarks)
   - [Parallel Corpora (NL-FL Pairs)](#parallel-corpora-nl-fl-pairs)
   - [Synthetic Data Generation](#synthetic-data-generation)
+  - [Reasoning Benchmarks](#reasoning-benchmarks)
 - [Models & Agents](#-models-and-agents)
   - [Theorem Provers (Solvers)](#-theorem-provers-solvers)
   - [Autoformalizers (Translators)](#-autoformalizers-translators)
 - [Methodologies](#-methodologies)
-  - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
+  - [Search & Planning](#search--planning)
   - [Iterative Refinement & Feedback](#iterative-refinement--feedback)
+  - [Execution & Verification](#execution--verification)
+  - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
   - [Multi-Agent Systems](#multi-agent-systems)
 - [Evaluation](#-evaluation)
 - [Tools](#-tools)
@@ -67,9 +70,14 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 - [2021] **MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
 
 ### Synthetic Data Generation
-*Datasets created or augmented by LLMs.*
+*Datasets created or augmented by LLMs to overcome data scarcity.*
 
 - [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
+
+### Reasoning Benchmarks
+*Benchmarks designed to evaluate step-by-step logical reasoning and chain-of-thought capabilities.*
+
+- [2023] **The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning** [[Paper](https://arxiv.org/abs/2305.14045)]
 
 ---
 
@@ -91,18 +99,29 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 ## ⚙️ Methodologies
 
+### Search & Planning
+*Methods that utilize proof planning (sketching) or search algorithms to navigate the solution space.*
+
+- [2024] **Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards** [[Paper](https://arxiv.org/abs/2404.10346)]
+- [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)] **[[📝Deep Dive](./notes/2022-review-dsp.md)]**
+
+### Iterative Refinement & Feedback
+*Systems that improve solutions through compiler feedback or error messages.*
+
+- [2025] **KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment** [[Paper](https://arxiv.org/abs/2507.08665)]
+
+### Execution & Verification
+*Approaches that leverage code execution (simulation) or formal verification to enhance reasoning accuracy.*
+
+- [2024] **Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models** [[Paper](https://arxiv.org/abs/2404.02575)]
+
 ### Retrieval-Augmented Generation (RAG)
 *Methods that retrieve relevant theorems or premises from libraries (e.g., Mathlib).*
 
 - *(Work In Progress)*
-
-### Iterative Refinement & Feedback
-*Systems that improve solutions through compiler feedback (Lean/Coq).*
-- [2025] **KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment** [[Paper](https://arxiv.org/abs/2507.08665)]
-- [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)] **[[📝Deep Dive](./notes/2022-review-dsp.md)]**
-
+- 
 ### Multi-Agent Systems
-*Collaborative agents specifically for theorem proving.*
+*Collaborative agents specifically designed for theorem proving tasks.*
 
 - *(Work In Progress)*
 
