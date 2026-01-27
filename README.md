@@ -120,7 +120,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 *Methods that retrieve relevant theorems or premises from libraries (e.g., Mathlib).*
 
 - *(Work In Progress)*
-- 
+
 ### Multi-Agent Systems
 *Collaborative agents specifically designed for theorem proving tasks.*
 
