@@ -109,6 +109,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 *Systems that improve solutions through compiler feedback or error messages.*
 
 - [2025] **KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment** [[Paper](https://arxiv.org/abs/2507.08665)]
+- [2024] **Towards Logically Sound Natural Language Reasoning with Logic-Enhanced Language Model Agents** [[Paper](https://arxiv.org/abs/2408.16081)]
 
 ### Execution & Verification
 *Approaches that leverage code execution (simulation) or formal verification to enhance reasoning accuracy.*
