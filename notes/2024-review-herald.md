@@ -44,6 +44,6 @@ While mathematical reasoning using LLMs has advanced, there is a severe scarcity
 
 ### 🚀 Research Implications
 *How can the community use this?*
-- **Bootstrapping Self-Improvement Loops:** HERALD provides the critical mass of data needed to kickstart iterative training loops (like STaR or Expert Iteration). Future work can use HERALD-trained models to autoformalize new data, verify it with Lean, and add it back to the training set, creating a "LELMA-style" virtuous cycle.
+- **Bootstrapping Self-Improvement Loops:** HERALD provides the critical mass of data needed to kickstart iterative training loops. Future work can use HERALD-trained models to autoformalize new data, verify it with Lean, and add it back to the training set. This enables a virtuous cycle of verification and refinement, similar to the architecture proposed in LELMA (Mensfelt et al., 2024).
 - **From Translation to Co-Pilot Agents:** The success of tactic-based annotation suggests that future models shouldn't just be "translators" (Input NL $\to$ Output Code) but interactive "co-pilots" that can explain the state of the proof in natural language to the user, aiding in the debugging of formal proofs.
 - **Benchmarking on "Wild" Math:** The community must now move beyond miniF2F. The next frontier is evaluating whether these models can handle the noise and ambiguity of raw arXiv papers or StackExchange discussions, effectively measuring the "Sim-to-Real" transfer capability of the HERALD dataset.
