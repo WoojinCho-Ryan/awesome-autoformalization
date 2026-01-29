@@ -36,25 +36,25 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 ## 📖 Table of Contents
 - [Survey Papers](#survey-papers)
-- [Datasets & Benchmarks](#datasets--benchmarks)
-  - [Parallel Corpora (NL-FL Pairs)](#parallel-corpora-nl-fl-pairs)
-  - [Synthetic Data Generation](#synthetic-data-generation)
+- [Datasets & Benchmarks](#datasets-benchmarks)
+  - [Parallel Corpora (NL-FL Pairs)](#parallel-corpora)
+  - [Synthetic Data Generation](#synthetic-data)
   - [Reasoning Benchmarks](#reasoning-benchmarks)
-- [Models & Agents](#models--agents)
-  - [Theorem Provers (Solvers)](#-theorem-provers-solvers)
-  - [Autoformalizers (Translators)](#-autoformalizers-translators)
+- [Models & Agents](#models-agents)
+  - [Theorem Provers (Solvers)](#theorem-provers)
+  - [Autoformalizers (Translators)](#autoformalizers)
 - [Methodologies](#methodologies)
-  - [Search & Planning](#search--planning)
-  - [Iterative Refinement & Feedback](#iterative-refinement--feedback)
-  - [Execution & Verification](#execution--verification)
-  - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
+  - [Search & Planning](#search-planning)
+  - [Iterative Refinement & Feedback](#iterative-feedback)
+  - [Execution & Verification](#execution-verification)
+  - [Retrieval-Augmented Generation (RAG)](#rag)
   - [Multi-Agent Systems](#multi-agent-systems)
 - [Evaluation](#evaluation)
 - [Tools](#tools)
 
 ---
 
-## 🗺️ Survey Papers
+## 🗺️ Survey Papers <a name="survey-papers"></a>
 *Comprehensive overviews of the field.*
 
 - [2026] **AI for Mathematics: Progress, Challenges, and Prospects** [[Paper](https://arxiv.org/abs/2601.13209)]
@@ -62,35 +62,35 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 ---
 
-## 📚 Datasets & Benchmarks
+## 📚 Datasets & Benchmarks <a name="datasets-benchmarks"></a>
 
-### Parallel Corpora (NL-FL Pairs)
+### Parallel Corpora (NL-FL Pairs) <a name="parallel-corpora"></a>
 *Aligned pairs of Natural Language (NL) and Formal Logic (FL).*
 
 - [2024] **Herald: A Natural Language Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)] **[[📝Deep Dive](./notes/2024-review-herald.md)]**
 - [2021] **MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
 
-### Synthetic Data Generation
+### Synthetic Data Generation <a name="synthetic-data"></a>
 *Datasets created or augmented by LLMs to overcome data scarcity.*
 
 - [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
 
-### Reasoning Benchmarks
+### Reasoning Benchmarks <a name="reasoning-benchmarks"></a>
 *Benchmarks designed to evaluate step-by-step logical reasoning and chain-of-thought capabilities.*
 
 - [2023] **The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning** [[Paper](https://arxiv.org/abs/2305.14045)]
 
 ---
 
-## 🚀 Models & Agents
+## 🚀 Models & Agents <a name="models-agents"></a>
 
-### 🤖 Theorem Provers (Solvers)
+### 🤖 Theorem Provers (Solvers) <a name="theorem-provers"></a>
 *End-to-end systems that aim to generate complete proofs and verify them.*
 
 - [2025] **Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning** [[Paper](https://arxiv.org/abs/2504.11354)]
 - [2024] **PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition** [[Paper](https://arxiv.org/abs/2407.11214)]
 
-### 📝 Autoformalizers (Translators)
+### 📝 Autoformalizers (Translators) <a name="autoformalizers"></a>
 *Models specialized in translating Natural Language (NL) to Formal Logic (FL).*
 
 - [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
@@ -98,38 +98,38 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 ---
 
-## ⚙️ Methodologies
+## ⚙️ Methodologies <a name="methodologies"></a>
 
-### Search & Planning
+### Search & Planning <a name="search-planning"></a>
 *Methods that utilize proof planning (sketching) or search algorithms to navigate the solution space.*
 
 - [2024] **Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards** [[Paper](https://arxiv.org/abs/2404.10346)]
 - [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)] **[[📝Deep Dive](./notes/2022-review-dsp.md)]**
 
-### Iterative Refinement & Feedback
+### Iterative Refinement & Feedback <a name="iterative-feedback"></a>
 *Systems that improve solutions through compiler feedback or error messages.*
 
 - [2025] **KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment** [[Paper](https://arxiv.org/abs/2507.08665)]
 - [2024] **Towards Logically Sound Natural Language Reasoning with Logic-Enhanced Language Model Agents** [[Paper](https://arxiv.org/abs/2408.16081)]
 
-### Execution & Verification
+### Execution & Verification <a name="execution-verification"></a>
 *Approaches that leverage code execution (simulation) or formal verification to enhance reasoning accuracy.*
 
 - [2024] **Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models** [[Paper](https://arxiv.org/abs/2404.02575)]
 
-### Retrieval-Augmented Generation (RAG)
+### Retrieval-Augmented Generation (RAG) <a name="rag"></a>
 *Methods that retrieve relevant theorems or premises from libraries (e.g., Mathlib).*
 
 - *(Work In Progress)*
 
-### Multi-Agent Systems
+### Multi-Agent Systems <a name="multi-agent-systems"></a>
 *Collaborative agents specifically designed for theorem proving tasks.*
 
 - *(Work In Progress)*
 
 ---
 
-## ⚖️ Evaluation
+## ⚖️ Evaluation <a name="evaluation"></a>
 *Metrics and methodologies to assess the quality of autoformalization and proving.*
 
 ### 1. Functional Correctness (Does it work?)
@@ -152,7 +152,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 ---
 
-## 🛠️ Tools
+## 🛠️ Tools <a name="tools"></a>
 *Proof Assistants and Environments.*
 
 - **Lean 4**
