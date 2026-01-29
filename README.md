@@ -35,22 +35,22 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ---
 
 ## 📖 Table of Contents
-- [Survey Papers](#-survey-papers)
-- [Datasets & Benchmarks](#-datasets--benchmarks)
+- [Survey Papers](#survey-papers)
+- [Datasets & Benchmarks](#datasets--benchmarks)
   - [Parallel Corpora (NL-FL Pairs)](#parallel-corpora-nl-fl-pairs)
   - [Synthetic Data Generation](#synthetic-data-generation)
   - [Reasoning Benchmarks](#reasoning-benchmarks)
-- [Models & Agents](#-models--agents)
+- [Models & Agents](#models--agents)
   - [Theorem Provers (Solvers)](#-theorem-provers-solvers)
   - [Autoformalizers (Translators)](#-autoformalizers-translators)
-- [Methodologies](#-methodologies)
+- [Methodologies](#methodologies)
   - [Search & Planning](#search--planning)
   - [Iterative Refinement & Feedback](#iterative-refinement--feedback)
   - [Execution & Verification](#execution--verification)
   - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
   - [Multi-Agent Systems](#multi-agent-systems)
-- [Evaluation](#-evaluation)
-- [Tools](#-tools)
+- [Evaluation](#evaluation)
+- [Tools](#tools)
 
 ---
 
