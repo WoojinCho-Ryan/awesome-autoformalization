@@ -172,7 +172,7 @@ Contributions are welcome! Please create a pull request.
 ## 🗓 Roadmap
 ### Upcoming Deep Dives
 - [ ] ATLAS (2025): Analysis of Teacher-Student pipelines and Data Synthesis strategies using Lean feedback.
-- [ ] Kimina-Prover (2025): Exploration of Reinforcement Learning and scaling laws in Formal Reasoning (정형 추론).
+- [ ] Kimina-Prover (2025): Exploration of Reinforcement Learning and scaling laws in Formal Reasoning.
 - [ ] PutnamBench (2024): Evaluation of current LLMs on university-level math and the limits of Neural Theorem Provers.
 - [ ] KELPS (2025): Deep dive into Iterative Refinement and semantic-syntactic alignment.
 
