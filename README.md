@@ -94,7 +94,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 *Models specialized in translating Natural Language (NL) to Formal Logic (FL).*
 
 - [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
-- [2024] **Herald: A Natural Language Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)]
+- [2024] **Herald: A Natural Language Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)] **[[📝Deep Dive](./notes/2024-review-herald.md)]**
 
 ---
 
