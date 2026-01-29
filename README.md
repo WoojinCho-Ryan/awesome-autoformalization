@@ -170,5 +170,14 @@ Contributions are welcome! Please create a pull request.
   - e-mail: woojincho.cs@gmail.com
 
 ## 🗓 Roadmap
-- [ ] Survey on **LLM-based Agents** for Math (e.g., AlphaGeometry)
-- [ ] Analysis of **Reinforcement Learning** in Theorem Proving
+### Upcoming Deep Dives
+- [ ] ATLAS (2025): Analysis of Teacher-Student pipelines and Data Synthesis strategies using Lean feedback.
+- [ ] Kimina-Prover (2025): Exploration of Reinforcement Learning and scaling laws in Formal Reasoning (정형 추론).
+- [ ] PutnamBench (2024): Evaluation of current LLMs on university-level math and the limits of Neural Theorem Provers.
+- [ ] KELPS (2025): Deep dive into Iterative Refinement and semantic-syntactic alignment.
+
+### Research & Expansion
+- [ ] Literature Review: Identifying latest papers on Agentic Workflows for formal verification.
+- [ ] Benchmark Comparison: Comparative analysis of MiniF2F, ProofNet, and PutnamBench.
+- [ ] Tooling Updates: Curating resources for Lean 4 environment setup and Mathlib4 integration.
+- [ ] Reinforcement Learning: Surveying Reward Model designs specifically tailored for formal logic.
