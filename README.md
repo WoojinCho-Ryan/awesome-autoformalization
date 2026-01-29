@@ -57,6 +57,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ## 🗺️ Survey Papers
 *Comprehensive overviews of the field.*
 
+- [2026] **AI for Mathematics: Progress, Challenges, and Prospects** [[Paper](https://arxiv.org/abs/2601.13209)]
 - [2025] **Autoformalization in the Era of Large Language Models: A Survey** [[Paper](https://arxiv.org/abs/2505.23486)]
 
 ---
