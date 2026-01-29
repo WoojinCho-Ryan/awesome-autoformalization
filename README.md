@@ -40,7 +40,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - [Parallel Corpora (NL-FL Pairs)](#parallel-corpora-nl-fl-pairs)
   - [Synthetic Data Generation](#synthetic-data-generation)
   - [Reasoning Benchmarks](#reasoning-benchmarks)
-- [Models & Agents](#-models-and-agents)
+- [Models & Agents](#-models--agents)
   - [Theorem Provers (Solvers)](#-theorem-provers-solvers)
   - [Autoformalizers (Translators)](#-autoformalizers-translators)
 - [Methodologies](#-methodologies)
