@@ -103,7 +103,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 ## ⚙️ Methodologies <a name="methodologies"></a>
 
-### Reinforcement Learning & Verifiable Rewards <a name="#rl-rewards"></a>
+### Reinforcement Learning & Verifiable Rewards <a name="rl-rewards"></a>
 *Training methodologies that leverage Reinforcement Learning (RL) and verifiable feedback from proof assistants to optimize reasoning capabilities.*
 - [2026] **Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation** [[Paper](https://arxiv.org/abs/2601.20614v1)]
 - [2026] **From Verifiable Dot to Reward Chain: Harnessing Verifiable Reference-based Rewards for RL of Open-ended Generation** [[Paper](https://arxiv.org/abs/2601.18533)]
