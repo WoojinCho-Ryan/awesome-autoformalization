@@ -44,6 +44,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - [Theorem Provers (Solvers)](#theorem-provers)
   - [Autoformalizers (Translators)](#autoformalizers)
 - [Methodologies](#methodologies)
+  - [Reinforcement Learning & Verifiable Rewards](#rl-rewards)
   - [Search & Planning](#search-planning)
   - [Iterative Refinement & Feedback](#iterative-feedback)
   - [Execution & Verification](#execution-verification)
@@ -102,9 +103,15 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 ## ⚙️ Methodologies <a name="methodologies"></a>
 
+### Reinforcement Learning & Verifiable Rewards <a name="#rl-rewards"></a>
+*Training methods utilizing Group Relative Policy Optimization (GRPO) or compiler-based rewards (RLVR).*
+- [2026] **Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation** [[Paper](https://arxiv.org/abs/2601.20614v1)]
+- [2026] **From Verifiable Dot to Reward Chain: Harnessing Verifiable Reference-based Rewards for RL of Open-ended Generation** [[Paper](https://arxiv.org/abs/2601.18533)]
+
 ### Search & Planning <a name="search-planning"></a>
 *Methods that utilize proof planning (sketching) or search algorithms to navigate the solution space.*
 
+- [2026] **Neural Chain-of-Thought Search: Searching the Optimal Reasoning Path to Enhance LLMs** [[Paper](https://arxiv.org/abs/2601.11340v1)]
 - [2024] **Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards** [[Paper](https://arxiv.org/abs/2404.10346)]
 - [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)] **[[📝Deep Dive](./notes/2022-review-dsp.md)]**
 
