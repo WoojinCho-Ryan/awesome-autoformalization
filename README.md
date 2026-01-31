@@ -19,16 +19,16 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 
 - [2025] **Autoformalization in the Era of Large Language Models: A Survey** [[Paper](https://arxiv.org/abs/2505.23486)]
   - *A comprehensive survey of autoformalization with LLMs, covering data, models, evaluation, and the role of formal verification for LLM outputs.*
+- [2026] **Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation** [[Paper](https://arxiv.org/abs/2601.20614v1)]
+  - *Proposes Difficulty-Aware GRPO and question reformulation techniques to dynamically balance training difficulty, offering a key methodology for enhancing mathematical reasoning capabilities.*
 - [2025] **Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning** [[Paper](https://arxiv.org/abs/2504.11354)]
   - *Introduces the “formal reasoning pattern” and a large RL-trained Lean 4 prover that achieves strong MiniF2F performance with high sample efficiency and clear scaling with model size.*
-- [2021] **MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
-  - *Establishes a unified, cross-system benchmark for formal Olympiad-level mathematics, serving as the primary testbed for evaluating autoformalization models.*
-- [2024] **Herald: A Natural  Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)] **[[📝Deep Dive](./notes/2024-review-herald.md)]**
-  - *Builds a large-scale NL–Lean4 corpus over mathlib4 and demonstrates a high-accuracy Herald translator for NL→formal code on MiniF2F and related benchmarks.*
 - [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)] **[[📝Deep Dive](./notes/2025-review-atlas.md)]**
   - *Proposes a teacher–student pipeline with Lean feedback to synthesize large NL–FL datasets and trains an ATLAS translator that achieves >90% pass@8 on MiniF2F.*
-- [2024] **PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition** [[Paper](https://arxiv.org/abs/2407.11214)]
-  - *Introduces a Putnam-based formal benchmark and shows that both neural and symbolic provers still struggle on truly hard competition-level problems.*
+- [2023] **LeanDojo: Theorem Proving with Retrieval-Augmented Language Models** [[Paper](https://arxiv.org/abs/2306.15626)]
+  - *Introduces LeanDojo, an open-source environment for interacting with Lean, and ReProver, a retrieval-augmented solver that selects premises from Mathlib to generate proofs.*
+- [2021] **MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
+  - *Establishes a unified, cross-system benchmark for formal Olympiad-level mathematics, serving as the primary testbed for evaluating autoformalization models.*
 - [2022] **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** [[Paper](https://arxiv.org/abs/2210.12283)] **[[📝Deep Dive](./notes/2022-review-dsp.md)]**
   - *Presents the “Draft–Sketch–Prove” pipeline, where LLM-generated informal proofs are turned into formal sketches that significantly boost downstream prover success rates.*
 
@@ -128,7 +128,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Retrieval-Augmented Generation (RAG) <a name="rag"></a>
 *Methods that retrieve relevant theorems or premises from libraries (e.g., Mathlib).*
 
-- *(Work In Progress)*
+- [2023] **LeanDojo: Theorem Proving with Retrieval-Augmented Language Models** [[Paper](https://arxiv.org/abs/2306.15626)]
 
 ### Multi-Agent Systems <a name="multi-agent-systems"></a>
 *Collaborative agents specifically designed for theorem proving tasks.*
