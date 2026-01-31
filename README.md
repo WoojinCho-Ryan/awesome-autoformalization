@@ -50,6 +50,8 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - [Retrieval-Augmented Generation (RAG)](#rag)
   - [Multi-Agent Systems](#multi-agent-systems)
 - [Evaluation](#evaluation)
+  - [Standard Metrics](#standard-metrics)
+  - [Evaluation Frameworks](#evaluation-frameworks)
 - [Tools](#tools)
 
 ---
@@ -115,6 +117,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Execution & Verification <a name="execution-verification"></a>
 *Approaches that leverage code execution (simulation) or formal verification to enhance reasoning accuracy.*
 
+- [2025] **FoVer: First-Order Logic Verification for Natural Language Reasoning** [[Paper](https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.41/133797/FoVer-First-Order-Logic-Verification-for-Natural)]
 - [2024] **Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models** [[Paper](https://arxiv.org/abs/2404.02575)]
 
 ### Retrieval-Augmented Generation (RAG) <a name="rag"></a>
@@ -132,23 +135,32 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ## ⚖️ Evaluation <a name="evaluation"></a>
 *Metrics and methodologies to assess the quality of autoformalization and proving.*
 
-### 1. Functional Correctness (Does it work?)
+### 📊 Standard Metrics <a name="standard-metrics"></a>
+
+#### 1. Functional Correctness (Does it work?)
 - **Pass@k**
   - *The standard metric: probability that at least one of `k` generated samples solves the problem (verified by the proof assistant).*
 - **Compilation Rate**
   - *The percentage of generated formal code that successfully compiles without syntax or type errors. A crucial baseline metric for autoformalizers.*
 
-### 2. Semantic Consistency (Is it the right translation?)
+#### 2. Semantic Consistency (Is it the right translation?)
 - **Automated Equivalence Checking**
   - *Using automated provers to verify if the generated formal statement ($F$) is logically equivalent to the ground truth ($F_{gt}$), i.e., proving $F \leftrightarrow F_{gt}$.*
 - **Back-Translation Quality** (NL $\to$ FL $\to$ NL)
   - *Translating the generated formal code back into natural language and comparing it with the original text using NLP metrics (BLEU, ROUGE, BERTScore).*
 
-### 3. Alignment & Reasoning
+#### 3. Alignment & Reasoning
 - **Informal-to-Formal Alignment**
   - *Measuring how well the steps in an informal proof map to the tactics in a formal proof.*
 - **Premise Selection Accuracy**
   - *Evaluating if the model retrieves the correct axioms and theorems (from libraries like Mathlib) required for the proof.*
+
+---
+
+### 📑 Evaluation Frameworks <a name="evaluation-frameworks"></a>
+*Research papers focusing on novel evaluation protocols and alignment checking.*
+
+- [2024] **FormalAlign: Automated Alignment Evaluation for Autoformalization** [[Paper](https://arxiv.org/abs/2410.10135)]
 
 ---
 
