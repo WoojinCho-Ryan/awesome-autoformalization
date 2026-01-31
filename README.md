@@ -133,7 +133,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Multi-Agent Systems <a name="multi-agent-systems"></a>
 *Collaborative agents specifically designed for theorem proving tasks.*
 
-- *(Work In Progress)*
+- [2025] **MASA: LLM-Driven Multi-Agent Systems for Autoformalization** [[Paper](https://arxiv.org/abs/2510.08988)]
 
 ---
 
