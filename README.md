@@ -25,7 +25,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - *Establishes a unified, cross-system benchmark for formal Olympiad-level mathematics, serving as the primary testbed for evaluating autoformalization models.*
 - [2024] **Herald: A Natural Language Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)] **[[📝Deep Dive](./notes/2024-review-herald.md)]**
   - *Builds a large-scale NL–Lean4 corpus over mathlib4 and demonstrates a high-accuracy Herald translator for NL→formal code on MiniF2F and related benchmarks.*
-- [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
+- [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)] **[[📝Deep Dive](./notes/2025-review-atlas.md)]**
   - *Proposes a teacher–student pipeline with Lean feedback to synthesize large NL–FL datasets and trains an ATLAS translator that achieves >90% pass@8 on MiniF2F.*
 - [2024] **PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition** [[Paper](https://arxiv.org/abs/2407.11214)]
   - *Introduces a Putnam-based formal benchmark and shows that both neural and symbolic provers still struggle on truly hard competition-level problems.*
@@ -73,7 +73,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Synthetic Data Generation <a name="synthetic-data"></a>
 *Datasets created or augmented by LLMs to overcome data scarcity.*
 
-- [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)]
+- [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)] **[[📝Deep Dive](./notes/2025-review-atlas.md)]**
 
 ### Reasoning Benchmarks <a name="reasoning-benchmarks"></a>
 *Benchmarks designed to evaluate step-by-step logical reasoning and chain-of-thought capabilities.*
@@ -171,7 +171,6 @@ Contributions are welcome! Please create a pull request.
 
 ## 🗓 Roadmap
 ### Upcoming Deep Dives
-- [ ] ATLAS (2025): Analysis of Teacher-Student pipelines and Data Synthesis strategies using Lean feedback.
 - [ ] Kimina-Prover (2025): Exploration of Reinforcement Learning and scaling laws in Formal Reasoning.
 - [ ] PutnamBench (2024): Evaluation of current LLMs on university-level math and the limits of Neural Theorem Provers.
 - [ ] KELPS (2025): Deep dive into Iterative Refinement and semantic-syntactic alignment.
