@@ -23,7 +23,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
   - *Introduces the “formal reasoning pattern” and a large RL-trained Lean 4 prover that achieves strong MiniF2F performance with high sample efficiency and clear scaling with model size.*
 - [2021] **MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics** [[Paper](https://arxiv.org/abs/2109.00110)] **[[📝Deep Dive](./notes/2021-review-miniF2F.md)]**
   - *Establishes a unified, cross-system benchmark for formal Olympiad-level mathematics, serving as the primary testbed for evaluating autoformalization models.*
-- [2024] **Herald: A Natural Language Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)] **[[📝Deep Dive](./notes/2024-review-herald.md)]**
+- [2024] **Herald: A Natural  Annotated Lean 4 Dataset** [[Paper](https://arxiv.org/abs/2410.10878)] **[[📝Deep Dive](./notes/2024-review-herald.md)]**
   - *Builds a large-scale NL–Lean4 corpus over mathlib4 and demonstrates a high-accuracy Herald translator for NL→formal code on MiniF2F and related benchmarks.*
 - [2025] **ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data** [[Paper](https://arxiv.org/abs/2502.05567)] **[[📝Deep Dive](./notes/2025-review-atlas.md)]**
   - *Proposes a teacher–student pipeline with Lean feedback to synthesize large NL–FL datasets and trains an ATLAS translator that achieves >90% pass@8 on MiniF2F.*
@@ -111,14 +111,12 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Iterative Refinement & Feedback <a name="iterative-feedback"></a>
 *Systems that improve solutions through compiler feedback or error messages.*
 
-- [2025] **KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment** [[Paper](https://arxiv.org/abs/2507.08665)]
 - [2024] **Towards Logically Sound Natural Language Reasoning with Logic-Enhanced Language Model Agents** [[Paper](https://arxiv.org/abs/2408.16081)]
 
 ### Execution & Verification <a name="execution-verification"></a>
 *Approaches that leverage code execution (simulation) or formal verification to enhance reasoning accuracy.*
 
-- [2025] **FoVer: First-Order Logic Verification for Natural Language Reasoning** [[Paper](https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.41/133797/FoVer-First-Order-Logic-Verification-for-Natural)]
-- [2024] **Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models** [[Paper](https://arxiv.org/abs/2404.02575)]
+- [2025] **KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment** [[Paper](https://arxiv.org/abs/2507.08665)]
 
 ### Retrieval-Augmented Generation (RAG) <a name="rag"></a>
 *Methods that retrieve relevant theorems or premises from libraries (e.g., Mathlib).*
