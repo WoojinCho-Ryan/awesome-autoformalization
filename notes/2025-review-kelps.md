@@ -12,6 +12,7 @@
 
 ## 1. ⚡ One-Line Summary
 KELPS introduces a novel neuro-symbolic framework that bridges the semantic-syntactic gap in autoformalization by utilizing Knowledge Equations (KEs)—an intermediate logical representation based on assertional logic—to achieve high-fidelity, verified translation of natural language mathematics into multiple formal systems (Lean 4, Coq, Isabelle).
+
 ![KELPS](./images/KELPS_1.png)
 
 ## 2. ❓ Problem Definition
