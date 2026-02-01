@@ -123,7 +123,7 @@ A curated list of papers, datasets, and resources dedicated to **Autoformalizati
 ### Execution & Verification <a name="execution-verification"></a>
 *Approaches that leverage code execution (simulation) or formal verification to enhance reasoning accuracy.*
 
-- [2025] **KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment** [[Paper](https://arxiv.org/abs/2507.08665)]
+- [2025] **KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment** [[Paper](https://arxiv.org/abs/2507.08665)] **[[📝Deep Dive](./notes/2025-review-kelps.md)]**
 
 ### Retrieval-Augmented Generation (RAG) <a name="rag"></a>
 *Methods that retrieve relevant theorems or premises from libraries (e.g., Mathlib).*
